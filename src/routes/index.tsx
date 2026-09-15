@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import portrait from "@/assets/shubh-portrait.jpg";
+import portraitAsset from "@/assets/shubh-dosi.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -190,7 +190,7 @@ function Portfolio() {
             <motion.div style={{ y: heroY }} initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.15, duration: 0.8 }} className="relative mx-auto w-full max-w-md lg:max-w-none">
               <div className="absolute -inset-3 border border-primary/30" />
               <div className="relative aspect-[4/5] overflow-hidden bg-card">
-                <img src={portrait} alt="Professional portrait representing Shubh Dosi" width={1200} height={1500} fetchPriority="high" className="h-full w-full object-cover grayscale-[18%] transition duration-700 hover:grayscale-0 hover:scale-[1.02]" />
+                <img src={portraitAsset.url} alt="Professional portrait of Shubh Dosi" width={1200} height={1500} fetchPriority="high" className="h-full w-full object-cover grayscale-[18%] transition duration-700 hover:grayscale-0 hover:scale-[1.02]" />
                 <div className="absolute inset-x-0 bottom-0 flex items-end justify-between bg-gradient-to-t from-background/95 to-transparent p-6 pt-24">
                   <div><p className="font-mono text-[10px] uppercase tracking-widest text-primary">Based in India</p><p className="mt-1 text-sm">JECRC University · CSE</p></div>
                   <Code2 className="size-7 text-primary" />
