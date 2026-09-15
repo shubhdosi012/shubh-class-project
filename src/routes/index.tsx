@@ -61,6 +61,12 @@ const journey = [
   ["2026", "IBM Data Science Badge", "Completed foundational data science learning."],
   ["2027", "Full Stack Development", "Next chapter: building complete, production-ready products."],
 ] as const;
+const achievements = [
+  { icon: Trophy, title: "SIH 2026", copy: "Smart India Hackathon participant" },
+  { icon: Award, title: "IBM Badge", copy: "Data Science badge holder" },
+  { icon: Code2, title: "Personal Projects", copy: "Building ideas independently" },
+  { icon: Github, title: "Open Learning", copy: "Active GitHub learner" },
+];
 
 function useTyping() {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -68,7 +74,7 @@ function useTyping() {
   const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
-    const word = roles[roleIndex];
+    const word = roles[roleIndex] ?? "";
     const done = letters === word.length;
     const empty = letters === 0;
     const delay = done && !deleting ? 1400 : deleting ? 38 : 74;
@@ -82,7 +88,7 @@ function useTyping() {
     return () => window.clearTimeout(timer);
   }, [deleting, letters, roleIndex]);
 
-  return roles[roleIndex].slice(0, letters);
+  return (roles[roleIndex] ?? "").slice(0, letters);
 }
 
 function Reveal({ children, className = "" }: { children: React.ReactNode; className?: string }) {
@@ -259,17 +265,12 @@ function Portfolio() {
         <section className="section-shell border-y border-border bg-secondary/35">
           <Reveal><SectionHeading number="04" eyebrow="Milestones" title="Progress worth marking." /></Reveal>
           <div className="grid gap-px bg-border sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              [Trophy, "SIH 2026", "Smart India Hackathon participant"],
-              [Award, "IBM Badge", "Data Science badge holder"],
-              [Code2, "Personal Projects", "Building ideas independently"],
-              [Github, "Open Learning", "Active GitHub learner"],
-            ].map(([Icon, title, copy], index) => (
-              <Reveal key={String(title)}>
+            {achievements.map(({ icon: Icon, title, copy }, index) => (
+              <Reveal key={title}>
                 <div className="group min-h-56 bg-background p-7 transition-colors hover:bg-card">
                   <Icon className="size-7 text-primary transition-transform group-hover:-translate-y-1" />
-                  <p className="mt-14 font-display text-xl font-semibold">{String(title)}</p>
-                  <p className="mt-2 text-sm text-muted-foreground">{String(copy)}</p>
+                  <p className="mt-14 font-display text-xl font-semibold">{title}</p>
+                  <p className="mt-2 text-sm text-muted-foreground">{copy}</p>
                   <span className="mt-6 block font-mono text-[10px] text-muted-foreground">0{index + 1}</span>
                 </div>
               </Reveal>
