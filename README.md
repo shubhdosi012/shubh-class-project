@@ -1,162 +1,71 @@
-# Shubh Dosi Portfolio
+# Shubh Dosi Verse
 
-Create a premium personal portfolio website for Shubh Dosi.
+A premium personal portfolio website for Shubh Dosi, created with **Lovable** as a college AI-class project. This is separate from my main personal portfolio, which I built myself.
 
-Style Inspiration:
-- Modern developer portfolio similar to dkydivyansh.com
-- Clean, futuristic, professional
-- Glassmorphism effects
-- Lime green accent (#d6ff38)
-- Smooth animations
-- Responsive for mobile, tablet and desktop
-- Premium UI/UX
-- Dark and light mode toggle
-- Fast loading and SEO friendly
+**Repository:** https://github.com/shubhdosi012/shubh-dosi-verse  
+**GitHub profile:** https://github.com/shubhdosi012  
+**Built with:** Lovable, React, TypeScript, Tailwind CSS, and Framer Motion
 
-Personal Information:
+## Project overview
 
-Name: Shubh Dosi
+Shubh Dosi Verse explores how an AI-assisted website-building tool can turn a detailed design brief into a modern, responsive portfolio experience. The project uses a dark visual style, lime-green accents, glassmorphism, motion effects, and layouts intended for desktop, tablet, and mobile.
 
-Role:
-AI & ML Student | Future Software Engineer | Hackathon Enthusiast
+## Planned and designed sections
 
-About:
-I am a First-Year B.Tech CSE (AI & ML) student at JECRC University. I am passionate about Artificial Intelligence, Software Development, Hackathons, and building real-world technology solutions. Currently learning Python, Web Development, Git & GitHub, and Machine Learning while actively participating in projects and hackathons.
+The original project brief includes:
 
-Education:
-JECRC University
-B.Tech Computer Science Engineering (AI & ML)
-2026 – Present
+- **Hero section:** introduction, animated role text, profile image, and contact/resume actions
+- **Tech stack marquee:** scrolling technology names
+- **About me:** student background and learning interests
+- **Skills:** technology cards and progress-style visuals
+- **Featured projects:** project highlights, including the HEXACODERS SIH concept
+- **Achievements:** achievement cards
+- **Journey timeline:** education and learning milestones
+- **GitHub statistics:** contribution and activity cards
+- **Counter statistics:** animated number counters
+- **Contact section:** social links and contact form
+- **Footer:** navigation and profile links
 
-Skills:
-- Python
-- C Programming
-- HTML
-- CSS
-- JavaScript
-- Git & GitHub
-- Artificial Intelligence
-- Machine Learning
-- Problem Solving
+These describe the project's brief and intended experience; check the running site and current source before treating every item as a completed or working feature.
 
-Achievements:
-- Smart India Hackathon 2026 Participant
-- IBM Data Science Badge Holder
-- Building Personal Projects
-- Active GitHub Learner
+## Technology stack
 
-Featured Project:
-HEXACODERS – Smart India Hackathon 2026
+- **Lovable** — AI-assisted website generation and iteration
+- **React** — component-based UI
+- **TypeScript** — typed JavaScript
+- **Tailwind CSS** — styling
+- **Framer Motion** — interface animations
+- **Vite and Bun/npm tooling** — development workflow
 
-Description:
-Developing a Cooperative Gig Services Platform that connects trusted workers and customers through a transparent and fair ecosystem.
+## Run locally
 
-Timeline Section:
-2026 → Started B.Tech AI & ML
-2026 → Participated in Smart India Hackathon
-2026 → Started GitHub Portfolio
-2026 → IBM Data Science Badge
-2027 → Learning Full Stack Development
+Prerequisites: Node.js and npm.
 
-Statistics:
-10+ Planned Projects
-1+ Hackathon Participation
-5+ Technologies Learning
-2026 Portfolio Started
-
-Social Links:
-GitHub:
-https://github.com/shubhdosi012
-
-LinkedIn:
-https://www.linkedin.com/in/shubh-dosi-575323311
-
-Email:
-shubhdosi012@gmail.com
-
-Required Sections:
-
-1. Hero Section
-- Large animated introduction
-- Professional profile image
-- Typing animation:
-  AI & ML Student
-  Software Developer
-  SIH Participant
-  Future Software Engineer
-- Resume Download Button
-- Contact Button
-
-2. Tech Stack Marquee
-Animated scrolling technologies
-
-3. About Me
-
-4. Skills Section
-Animated progress bars
-
-5. Featured Project Section
-Professional project cards
-
-6. Achievements Section
-Achievement cards with icons
-
-7. Journey Timeline
-Vertical animated timeline
-
-8. GitHub Statistics Section
-GitHub contribution graph
-GitHub stats cards
-GitHub streak stats
-
-9. Counter Statistics
-Animated count-up numbers
-
-10. Contact Section
-Modern contact form
-Social links
-Email button
-
-11. Footer
-
-Premium Features:
-- Floating particle background
-- Custom cursor
-- Smooth scroll animations
-- Hover glow effects
-- Glassmorphism cards
-- Animated gradients
-- Scroll reveal effects
-- Mouse parallax effects
-- Loading screen animation
-- Professional transitions
-- Framer Motion animations
-
-Tech Stack:
-React
-TypeScript
-Tailwind CSS
-Framer Motion
-
-Generate complete production-ready code with clean folder structure and premium design quality.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/24a352c5-4715-4e0d-8cf3-2a76be38c980).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
+git clone https://github.com/shubhdosi012/shubh-dosi-verse.git
+cd shubh-dosi-verse
+npm install
 npm run dev
 ```
+
+Open the local development URL shown in the terminal.
+
+## Academic learning goals
+
+- Explore AI-assisted software development with Lovable
+- Review a React and TypeScript project structure
+- Learn how responsive layouts and reusable components are organised
+- Understand how animation libraries are used in web interfaces
+- Compare an AI-generated starting point with code review, testing, and further refinement
+
+## Future improvements
+
+- Add a verified live deployment link and real screenshots
+- Test navigation, contact form, mobile layout, and accessibility
+- Verify that statistics and progress indicators display accurate information
+- Add project-specific setup and testing notes
+- Clearly separate planned features from implemented features
+
+## Academic project note
+
+This repository documents a college AI-class project made with Lovable. It is a learning and demonstration project, not a claim that all generated features are production-ready.
