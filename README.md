@@ -2,7 +2,7 @@
 
 A portfolio-style website created with **Lovable** for a college AI-class project. This is separate from my main personal portfolio, which I designed and built myself.
 
-- **Repository:** https://github.com/shubhdosi012/shubh-dosi-verse
+- **Repository:** https://github.com/shubhdosi012/shubh-class-project
 - **Creator workflow:** Lovable-assisted
 - **Technologies:** React, TypeScript, Tailwind CSS, Framer Motion, and Vite
 
@@ -27,8 +27,8 @@ The project brief includes the following sections. Verify each one in the curren
 Prerequisites: Node.js and Bun.
 
 ```bash
-git clone https://github.com/shubhdosi012/shubh-dosi-verse.git
-cd shubh-dosi-verse
+git clone https://github.com/shubhdosi012/shubh-class-project.git
+cd shubh-class-project
 bun install
 bun run dev
 ```
