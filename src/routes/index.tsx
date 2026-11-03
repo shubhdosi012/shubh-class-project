@@ -506,9 +506,9 @@ function Portfolio() {
             <Reveal className="glass-card p-6 md:p-8">
               <div className="mb-7 flex items-center justify-between">
                 <div>
-                  <p className="font-display text-xl font-semibold">Contribution activity</p>
+                  <p className="font-display text-xl font-semibold">Illustrative contribution grid</p>
                   <p className="mt-1 text-xs text-muted-foreground">
-                    A snapshot of consistent practice
+                    Demo visual · not live GitHub activity
                   </p>
                 </div>
                 <Github className="text-primary" />
@@ -516,7 +516,7 @@ function Portfolio() {
               <ContributionGrid />
               <div className="mt-5 flex items-center justify-between font-mono text-[10px] text-muted-foreground">
                 <span>Less</span>
-                <span>2026 · GitHub learning journey</span>
+                <span>Illustrative · no live data</span>
                 <span>More</span>
               </div>
             </Reveal>
